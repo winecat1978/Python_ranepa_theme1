@@ -5,8 +5,8 @@
 word = input("Введите слово: ")
 for i in range(len(word)):
     if word[i] == word[len(word)-i-1]:
-        answer = True
+        answer = "Да"
     else:
-        answer = False
+        answer = "Нет"
 print(answer)
     
