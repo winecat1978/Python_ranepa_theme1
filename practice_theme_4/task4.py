@@ -47,7 +47,7 @@ if_leap = leap_year(list)
 print(f"количество дней в месяце = {max_day}")
 print(f"Год високосный? {if_leap}")
 res = next_day(list,max_day)
-print(*res)
+print(f"{res[0]}.{res[1]}.{res[2]}")
 
 
 
